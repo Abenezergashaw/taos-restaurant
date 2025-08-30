@@ -129,6 +129,8 @@ const chunkedItems = computed(() => {
 </script>
 
 <template>
+  <hr class="my-2 border" />
+
   <div>
     <div
       v-for="(group, index) in chunkedItems"

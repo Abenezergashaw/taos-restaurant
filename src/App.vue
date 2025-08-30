@@ -11,10 +11,7 @@ const categories = [
   { name: "BEVERAGES", title: "መጠጦች" },
 ];
 
-const activeCategory = ref({
-  name: "MAIN COURSE",
-  title: "የፆም ምግቦች",
-});
+const activeCategory = ref({ name: "APPETIZERS", title: "የፍስክ ምግቦች" });
 </script>
 
 <template>
@@ -27,8 +24,8 @@ const activeCategory = ref({
       <h1
         class="text-4xl md:text-6xl font-extrabold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-amber-500 to-red-500 drop-shadow-lg animate-gradient-x"
       >
-        ታኦስ <br />
-        ሬስቶራንት
+        ታኦስ ቁርጥና<br />
+        የባህል ምሽት
       </h1>
 
       <!-- Contact Info -->
@@ -45,7 +42,7 @@ const activeCategory = ref({
           />
         </svg>
 
-        +251-900-000-000 | ማራኪ መንገድ, ጎንደር
+        +251-933-967-236 | ማራኪ መንገድ, ጎንደር
       </p>
     </div>
 

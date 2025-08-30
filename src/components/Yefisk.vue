@@ -228,7 +228,7 @@ const chunkedItems = computed(() => {
 </script>
 
 <template>
-  <div
+  <!-- <div
     class="text-white text-center tracking-widest uppercase font-bold text-base my-2 flex gap-2 justify-center"
   >
     <button
@@ -257,31 +257,34 @@ const chunkedItems = computed(() => {
         <path d="M15 3c0 3.31-2.69 6-6 6h6c0-3.31 2.69-6 6-6h-6Z" />
       </svg>
     </div>
-  </div>
+  </div> -->
 
+  <hr class="my-2 border" />
+  <div class="text-center text-lg tracking-widest text-white mb-1">
+    ታኦስ የፍስክ ስፔሻልስ
+  </div>
   <div
-    v-if="isSpecial"
-    class="grid grid-cols-2 gap-x-6 gap-y-4 w-full max-w-3xl mx-auto"
+    class="grid grid-cols-2 gap-x-6 gap-y-4 w-full max-w-3xl mx-auto border-2 border-orange-400 rounded-md p-2"
   >
     <div
       v-for="(item, index) in specials"
       :key="item.name"
-      class="flex justify-between items-center px-3 py-2 rounded-xl shadow-sm transition transform hover:scale-105 hover:shadow-md"
+      class="flex justify-between items-center px-3 py-2 rounded-xl shadow-sm transition transform hover:scale-105 hover:shadow-md text-xs"
       :class="
         index % 2 === 0
-          ? 'bg-gradient-to-r from-gray-400 via-[#8f6c44]/20 to-[#d37c17]/20'
-          : 'bg-gradient-to-r from-[#d37c17]/20 via-[#8f6c44]/20 to-gray-400'
+          ? 'bg-gradient-to-r from-gray-400 via-[#aaa]/20 to-[#fcfcfc]/20'
+          : 'bg-gradient-to-r from-[#fcfcfc]/20 via-[#aaa]/20 to-gray-400'
       "
     >
       <!-- Name -->
       <span
-        class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-[#a19587] to-[#d37c17]"
+        class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500"
       >
         {{ item.name }}
       </span>
       <!-- Price -->
       <span
-        class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#d37c17] via-[#8f6c44] to-gray-200"
+        class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-300 to-yellow-400"
       >
         {{ item.price }} Br
       </span>
