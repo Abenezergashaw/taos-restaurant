@@ -85,7 +85,7 @@ const activeCategory = ref({ name: "APPETIZERS", title: "የፍስክ ምግቦ�
 
     <!-- <hr class="my-3 border" /> -->
     <footer class="text-center text-white tracking-wider my-2">
-      Taos Restaurant &copy; 2025
+      ታኦስ &copy; 2025
     </footer>
   </div>
 </template>
