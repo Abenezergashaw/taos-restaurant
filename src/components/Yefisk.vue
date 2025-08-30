@@ -305,7 +305,7 @@ const chunkedItems = computed(() => {
             class="flex justify-between gap-3 items-center mb-2"
           >
             <div
-              class="font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-[#8f6c44] to-[#d37c17] truncate"
+              class="font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 truncate"
               :style="{
                 fontSize: `14px`,
               }"
@@ -313,7 +313,7 @@ const chunkedItems = computed(() => {
               {{ item.name }}
             </div>
             <div
-              class="font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-[#d37c17] via-[#8f6c44] to-gray-200"
+              class="font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500"
             >
               {{ item.price }} Br
             </div>
@@ -346,12 +346,12 @@ const chunkedItems = computed(() => {
             class="flex justify-between items-center mb-2"
           >
             <div
-              class="font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-[#8f6c44] to-[#d37c17]"
+              class="font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500"
             >
               {{ item.name }}
             </div>
             <div
-              class="font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-[#d37c17] via-[#8f6c44] to-gray-200"
+              class="font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500"
             >
               {{ item.price }} Br
             </div>
